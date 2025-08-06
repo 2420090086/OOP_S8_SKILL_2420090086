@@ -4,13 +4,24 @@ public class details {
 
 	public static void main(String[] args) {
 		
-		long  roll=90086;
-		String name ="Abhinav";
-		float marks = 45;
-		char gender ="M";
-		boolean status= true;
+		public static void main(String[] args) {
+		String Name, Rollno;
+		System.out.print("Enter Name: ");
+		Scanner sll=new Scanner(System.in);
+		Name=sll.nextLine();
+		sll.close();
+		System.out.print("Enter Roll No.: ");
+		Rollno=sll.nextLine();
+		System.out.println("Student details are: ");
+		System.out.println("Name: "+Name);
+		System.out.println("Roll No.: "+Rollno);
+
 		
-		System.out.print(+roll,name,+marks,+gender,status);
+		
+		
+		// TODO Auto-generated method stub
+
+	}
 		
 				
 		// TODO Auto-generated method stub
@@ -18,3 +29,4 @@ public class details {
 	}
 
 }
+
